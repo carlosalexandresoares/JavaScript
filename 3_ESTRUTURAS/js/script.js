@@ -123,12 +123,12 @@
 
 // 10 while
 
-let p = 0
+// let p = 0
 
-while(p < 5){
-    console.log(`Repetindo ${p}`);
-    p = p + 1;
-}
+// while(p < 5){
+//     console.log(`Repetindo ${p}`);
+//     p = p + 1;
+// }
 
 // loop infinito
 
@@ -136,4 +136,73 @@ while(p < 5){
 
 // while(x > 5){
 //     console.log(`Imprimindo o ${x}`)
+// }
+
+// 11 do while
+
+// let o = 10
+
+// do{
+//     console.log(`Valor de o: ${o}`)
+//     o--
+// }while(o > 1)
+
+// 12 For
+
+// for(let t = 0; t < 10; t++){
+//     console.log("Repetindo algo..")
+// }
+
+// let r = 10
+
+// for(r; r > 0; r = r - 1){
+//     console.log(`o r esta diminuindo ${r}`)
+// }
+
+// 13 indentação
+
+// for(let u = 0; u < 10; u++){
+// if(u * 2 >10){
+// console.log(`Maior que 10! ${u}`)    
+// }else{
+// if(u / 2 === 0){
+// console.log("Deu 0")    
+// }    
+// }    
+// }
+
+// 14 break
+
+// for(let g = 20; g > 10; g--){
+//     console.log(`O valor de g é ${g}`);
+//     if(g === 15){
+//         console.log('O g é 15!');
+//         break;
+//     }
+// }
+
+// // 15 continue
+
+// for(let s = 1; s < 10; s++){
+//     //operador resto =%
+//     if(s % 2 === 1){
+//         console.log("Número par!");
+//         continue;
+//     }
+//     console.log(s);
+// }
+
+// 16 switch
+
+// const job ="Dev"
+
+// switch(job){
+//     case "Advogado":
+//         console.log("Você é um advogado")
+//         break
+//     case "Dev":
+//         console.log("Você é um dev")
+//         break
+//     default: 
+//         console.log("Você é um desempregado")    
 // }
