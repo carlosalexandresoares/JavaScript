@@ -130,49 +130,63 @@
 
 // 11 push e pop
 
-const array = ["a", "b", "c"]
+// const array = ["a", "b", "c"]
 
-array.push("d")
-console.log(array);
-console.log(array.length);
+// array.push("d")
+// console.log(array);
+// console.log(array.length);
 
-array.pop();
+// array.pop();
 
-console.log(array);
+// console.log(array);
 
-const itemRemovido = array.pop();
+// const itemRemovido = array.pop();
 
-console.log(itemRemovido);
+// console.log(itemRemovido);
 
-console.log(array)
+// console.log(array)
 
-// 12 shift e unshift
+// // 12 shift e unshift
 
-const array2 = [1, 4, 6, 7, 8]
+// const array2 = [1, 4, 6, 7, 8]
 
-console.log(array2)
-array2.shift()
-console.log(array2)
+// console.log(array2)
+// array2.shift()
+// console.log(array2)
 
-const resv = array2.shift()
+// const resv = array2.shift()
 
-console.log(resv)
+// console.log(resv)
 
-console.log(array2)
+// console.log(array2)
 
-array2.unshift(5)
+// array2.unshift(5)
 
-console.log(array2)
+// console.log(array2)
 
-// 13 indexOf e lastindexOf
+// // 13 indexOf e lastindexOf
 
-const list = ["Morando", "Caju", "Maçã", "Morango"];
+// const list = ["Morando", "Caju", "Maçã", "Morango"];
 
-console.log(list.indexOf("Maçã"));
-console.log(list.indexOf("Morango"));
+// console.log(list.indexOf("Maçã"));
+// console.log(list.indexOf("Morango"));
 
 
-console.log(list[2]);
-console.log(list[list.indexOf("Morango")]);
+// console.log(list[2]);
+// console.log(list[list.indexOf("Morango")]);
 
-console.log(list.lastIndexOf("Morango"))
+// console.log(list.lastIndexOf("Morango"))
+
+// 14 slice
+
+const testeSlice = ['a', 'b', 'c', 'd', 'e', 'f']
+
+const subArray = testeSlice.slice(2, 4);
+// posso apenas passar um indice
+
+console.log(subArray);
+console.log(testeSlice);
+
+const subArray2 = testeSlice.slice(2, 4 + 1);
+
+console.log(subArray2)
